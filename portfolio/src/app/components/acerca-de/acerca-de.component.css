@@ -1,63 +1,41 @@
 .row{
-    padding: 0.5%
+    padding: 20px;
 }
 
-.div{
+div{
+    background-color: #F0E68C;
     text-align: center;
+   
 }
-/* Styles Foto de Perfil */
-@media(min-width:360px){
-    #fotodeveloper{
-        position: -10%;
-        width:85%;
-        border-radius: 50%;
-        box-shadow: 3px 3px 3px grey;
-        align-content: center;
-        margin-left: 10%;
-        padding-top: 10%;
-    }
-    #nombre{
-       
-        margin-top: 10%;
-        width: 100%;
-        padding-top: -20%;
-        padding-left: 20%;
-       
-        font-size: 29px;
-        display:grid;
-        align-items:center;
-        justify-content: center;
-    }
- }
-
- @media(max-width:360px){
-    #fotodeveloper{
-        
-    position: absolute;
-    width:500px;
-    left:2%
-    
-    }
-
-    #nombre{
-        display: grid;
-        justify-content: center;
-        left:5%;
-        top:auto;
-    }
-  
- }
-
-/* Etiqueta Nombre */ 
 
 #nombre{
     font-weight: bold;
     margin-top: 20%;
-    margin-left: 1%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    font-size:1em
 }
 
-#acercaDeMi{
-    padding-top: 80%;
-    margin: auto;
+@media(min-width : 576px){
+    #fotodeveloper{
+        position:absolute;
+        width: 15%;
+       border-radius: 80%;
+       box-shadow: 3px 3px 3px grey;
+       left:2%;
+       top:25%;
+    }
+
+}
+
+
+@media(max-width : 575px){
+    #fotodeveloper{
+        position:absolute;
+        width: 30%;
+       border-radius: 80%;
+       box-shadow: 3px 3px 3px grey;
+       left:2%;
+       
+    }
+    
 }
